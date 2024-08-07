@@ -137,3 +137,14 @@ body {
   justify-content: center;
   color: #fff;
 }
+
+.wm {
+  position: absolute;
+  z-index: 2;
+  right: 20px;
+  bottom: 20px;
+}
+
+.wm a, .wm p {
+  color: #fff;
+}
