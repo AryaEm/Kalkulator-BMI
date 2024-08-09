@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kalkulator BMI</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/tanah.css" />
   </head>
   <body>
     <video autoplay loop muted plays-inline class="background-clip">
@@ -15,7 +23,7 @@
       <div class="nav-wrap">
         <a href="tanah.html">Harga tanah</a>
         <a href="barang.html">Harga Barang</a>
-        <a href="/index.html">Kalkulator BMI</a>
+        <a href="index.html">Kalkulator BMI</a>
         <a href="geometri.html">Deret Geometri</a>
         <a href="">Volume dan Luas</a>
       </div>
@@ -24,28 +32,42 @@
     <div class="container">
       <div class="wrapper">
         <div class="header">
-          <h2>Kalkulator BMI</h2>
+          <h2>Hitung Harga Tanah</h2>
         </div>
         <div class="wrapper2">
           <div class="input">
             <input
-              placeholder="Berat Badan (kg)"
+              placeholder="Panjang tanah"
               class="input-text"
               type="text"
-              id="Berat"
+              id="panjang"
               autocomplete="off"
               style="margin-top: 30px"
             />
             <input
-              placeholder="Tinggi Badan (cm)"
+              placeholder="Lebar Tanah"
               class="input-text"
               type="text"
-              id="Tinggi"
+              id="lebar"
+              autocomplete="off"
+            />
+            <input
+              placeholder="Harga Permeter"
+              class="input-text"
+              type="text"
+              id="perMeter"
+              autocomplete="off"
+            />
+            <input
+              placeholder="PPN"
+              class="input-text"
+              type="text"
+              id="ppn"
               autocomplete="off"
               style="margin-bottom: 30px"
             />
 
-            <button class="button" onclick="hitungBMI()">
+            <button class="button" onclick="hitungTanah()">
               <p class="text">Hitung BMI</p>
             </button>
           </div>
@@ -59,6 +81,9 @@
       <p>By <a href="https://github.com/AryaEm/" target="_blank">Arya</a></p>
     </div>
 
-    <script src="/js/index.js"></script>
+    <script src="/js/tanah.js"></script>
   </body>
+</html>
+
+</body>
 </html>
